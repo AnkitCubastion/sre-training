@@ -16,7 +16,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: '88c0b369-8313-41a0-b57e-d6327a50707d'
+    azureSubscription: 'test-service-connection'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
